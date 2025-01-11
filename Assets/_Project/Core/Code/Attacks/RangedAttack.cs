@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Attacks
 {
-    public class RangedAttack : AbstractWeapon
+    public class RangedAttack : AbstractAttack
     {
         public override void Attach()
         {

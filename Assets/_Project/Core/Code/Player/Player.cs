@@ -26,7 +26,7 @@ namespace Player
         private GameObject cameraRotater;
 
         [SerializeField]
-        private AbstractWeapon weapon = null;
+        private AbstractAttack weapon = null;
 
         void Start()
         {
@@ -115,7 +115,7 @@ namespace Player
             //whizzbang.GetComponent<Rigidbody>().AddForce(Vector3.forward * Time.deltaTime * 15, ForceMode.Impulse);
             weapon.Attach();
         }
-        public void SetWeapon(AbstractWeapon newWeapon)
+        public void SetWeapon(AbstractAttack newWeapon)
         {
         }
     }

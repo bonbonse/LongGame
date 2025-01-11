@@ -7,6 +7,10 @@ using Unity.Burst.CompilerServices;
 
 namespace Mark
 {
+    /** 
+     * Класс метки для интерактивного объекта. 
+     * На объекте должен быть Collider с Trigger 
+     */
     public class Mark : MonoBehaviour
     {
         public InteractionObject interactionObject = null;

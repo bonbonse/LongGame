@@ -10,8 +10,9 @@ namespace ScriptableObjects.Weapons
         public string Description = "";
         public float Distance = 0;
         public float Damage = 0;
-        public GameObject Whizzbang = null;
-        public virtual AttackTypes Type { get; }
+        public float Cooldown = 0;
+        public GameObject Whizzbang = null; // Снаряд для дальнобойных атак
+        public Sprite Icon = null; // Иконка для отображении в интерфейсе
     }
 }
 
